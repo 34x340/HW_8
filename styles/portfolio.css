@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.body-section {
+  text-decoration: none;
+  font-family: "Raleway";
+}
+
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+.header-section {
+  height: 80px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+/* НАВІГАЦІЯ ХЕДЕР */
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  margin-left: 93px;
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 307px;
+  margin-left: 335px;
+}
+
+.nav-list .nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.nav-list .nav-item:hover {
+  color: #2196f3;
+}
+
+/* КОНТАКТИ ХЕДЕР */
+
+.header-contacts .header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.header-contacts .header-mail:hover {
+  color: #2196f3;
+}
+
+.header-contacts .header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.header-contacts .header-tel:hover {
+  color: #2196f3;
+}
+
+/* Основний блок */
+.button-section {
+  border: 1px solid #ececec;
+  padding: 94px 0;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.61;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border: 0;
+  border-radius: 4px;
+  transition: 0.2s;
+  padding: 6px 22px;
+}
+
+.button:hover {
+  color: #fff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: 0.2s;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 611px;
+}
+
+.portfolio-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.portfolio-list {
+  border: 1px solid #eeeeee;
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+
+.portfolio-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-desk {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 4px;
+}
+
+/* FOOTER */
+
+.footer-section {
+  padding: 60px 0;
+  background-color: #2f303a;
+}
+.footer-list {
+  margin-top: 20px;
+}
+
+.footer-adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contacts .footer-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-contacts .footer-mail:hover {
+  color: #2196f3;
+}
+
+.footer-contacts .footer-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-contacts .footer-tel:hover {
+  color: #2196f3;
+}
+
+.logo-white {
+  color: #ffffff;
+}
